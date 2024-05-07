@@ -1,17 +1,10 @@
-import Message from "./Message";
+import ListGroup from "./Components/ListGroup";
 
-Message
 
 function App()
 {
-  const name = "Alicia";
-// return <div><Message/></div>
-if(name)
-  {
-return <div>Hello{name}</div>
-  }
 
-return <div><h1>Hello World</h1></div>
+return <h1><ListGroup/></h1>
 }
 
 export default App;
