@@ -7,17 +7,20 @@ import { useState } from "react";
 
 interface ListProps{
 
-  items: strings []
+  items: string []
   heading: string
 }
 
-const ListGroup = () => {
+const ListGroup = ({items, heading}:ListProps) => {
   let items = ["New York", "Tokyo", "London", "Paris"];
  
 
-  const [selectedIndex, setSelectedIndex] = use
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
-  console.log(arr);
+  const [name,setName] = useState("David");
+
+
+
   // console.log(useState(-1));
   //Event handler which is a function to handle an event
   // e stands for event
