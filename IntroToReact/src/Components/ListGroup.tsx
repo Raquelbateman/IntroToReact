@@ -1,11 +1,21 @@
 import { useState } from "react";
 
 
+//typescrip has a feature called interface
+//using an interface we can define the shape of our objects
+//{items: [], heading :string}
+
+interface ListProps{
+
+  items: strings []
+  heading: string
+}
+
 const ListGroup = () => {
   let items = ["New York", "Tokyo", "London", "Paris"];
-  let selectedIndex = 0;
+ 
 
-  const arr = useState(0);
+  const [selectedIndex, setSelectedIndex] = use
 
   console.log(arr);
   // console.log(useState(-1));
@@ -16,6 +26,18 @@ const ListGroup = () => {
   // };
 
   // items = [];
+  // const updateIndex = () => {
+   
+  //   setSelectedIndex(index);
+  //   console.log(selectedIndex);
+
+  // }
+
+  const updateIndex = (index:any) =>{
+  setSelectedIndex(index);
+  console.log(selectedIndex);
+  console.log(index, "This is just the index");
+  }
 
   const getMessage = () => {
     return items.length == 0 ? <p>No Items Found</p> : null;
@@ -33,7 +55,9 @@ const ListGroup = () => {
             className={
               selectedIndex == index
               ? 'list-group-item active'
-               : 'list-group-item'} 
+               : 'list-group-item'
+              } 
+
                key={index}
                onClick={() => console.log('${item}')}
 
