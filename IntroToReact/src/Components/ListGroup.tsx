@@ -17,7 +17,7 @@ const ListGroup = ({items, heading}:ListProps) => {
 
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  const [name,setName] = useState("David");
+  const [name, setName] = useState("David");
 
 
 
