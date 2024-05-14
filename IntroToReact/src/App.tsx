@@ -1,4 +1,5 @@
 //import Message from "./Message";
+import Button from "./Components/Button";
 import Counter from "./components/Counter";
 import ListGroup from "./components/ListGroup";
 import MyuseStateExample from "./components/MyuseStateExample";
@@ -17,8 +18,16 @@ function App() {
     "Timothy",
   ];
   
-  let cars = ["Subaru","Mazda", "Fiat", "Audi", "BMW", "Nissan", "Toyota", "Ford", "Tesla","Lexus"]
+ const cars = ["Subaru","Mazda", "Fiat", "Audi", "BMW", "Nissan", "Toyota", "Ford", "Tesla","Lexus"]
   
+const handleSelectItem = (item:string) => {
+
+    console.log(item);
+}
+
+
+
+<Button></Button>
   {
     /* make sure our function called is self closing tag and it doesn't need () /
   }
