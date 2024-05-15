@@ -4,6 +4,7 @@ import { useState } from "react";
 import Button from "./Components/Button"
 import ListGroup from "./Components/ListGroup/ListGroup";
 import MyuseStateExample from "./Components/useStateExample";
+import { Gi3dGlasses } from "react-icons/gi";
 
 
 function App() {
@@ -62,8 +63,8 @@ function App() {
   return (
     <>
       <div>
-
-        {/* <Alert>
+      <Gi3dGlasses  color="purple" size={80}/>
+        {/* /* <Alert>
 
       Passing in text as a child!
 
