@@ -66,8 +66,8 @@ function App() {
       <GiBalloonDog color="purple" size={80}/>
   
 
-  
-        {display ? <Alert closeAlertFunc={setDisFunc}>Click Me For Latest Alerts</Alert> : null}
+
+        {display ? <Alert closeAlertFunc={setDisFunc}>ALERT! ALERT! ALERT!</Alert> : null}
         <Button color="warning" onClickFunction={setDisFunc}>Click for New Alerts</Button>
         <Button color="primary" onClickFunction={handleClick}>One Button</Button>
         <Button color="secondary" onClickFunction={handleClick}>Two Button</Button>
