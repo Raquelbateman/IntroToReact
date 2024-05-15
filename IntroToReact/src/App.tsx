@@ -2,7 +2,7 @@
 import { useState } from "react";
 // import Alert from "./Components/Alert";
 import Button from "./Components/Button"
-import ListGroup from "./Components/ListGroup";
+import ListGroup from "./Components/ListGroup/ListGroup";
 import MyuseStateExample from "./Components/useStateExample";
 
 
@@ -62,6 +62,13 @@ function App() {
   return (
     <>
       <div>
+
+        {/* <Alert>
+
+      Passing in text as a child!
+
+
+        </Alert> */}
        
         {/* {display ? <Alert closeAlertFunc={setDisFunc}>Click Me For Latest Alerts</Alert> : null} */}
         <Button color="warning" onClickFunction={setDisFunc}>Click for New Alerts</Button>
