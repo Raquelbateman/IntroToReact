@@ -1,6 +1,6 @@
 //import Message from "./Message";
 import { useState } from "react";
-// import Alert from "./Components/Alert";
+import Alert from "./Components/Alert";
 import Button from "./Components/Button"
 import ListGroup from "./Components/ListGroup/ListGroup";
 import MyuseStateExample from "./Components/useStateExample";
@@ -71,7 +71,7 @@ function App() {
 
         </Alert> */}
        
-        {/* {display ? <Alert closeAlertFunc={setDisFunc}>Click Me For Latest Alerts</Alert> : null} */}
+        {display ? <Alert closeAlertFunc={setDisFunc}>Click Me For Latest Alerts</Alert> : null}
         <Button color="warning" onClickFunction={setDisFunc}>Click for New Alerts</Button>
         <Button color="primary" onClickFunction={handleClick}>One Button</Button>
         <Button color="secondary" onClickFunction={handleClick}>Two Button</Button>
