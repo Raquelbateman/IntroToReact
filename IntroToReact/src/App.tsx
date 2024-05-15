@@ -56,7 +56,7 @@ function App() {
   const[display, setDisplay] = useState(false);
 
   // this will toggle our alert buttons
-  const setDisFunc = () => {
+  const setDisFunction = () => {
     setDisplay(!display);
   }
 
@@ -67,8 +67,8 @@ function App() {
   
 
 
-        {display ? <Alert closeAlertFunc={setDisFunc}>ALERT! ALERT! ALERT!</Alert> : null}
-        <Button color="warning" onClickFunction={setDisFunc}>Click for New Alerts</Button>
+        {display ? <Alert closeAlertFunc={setDisFunction}>ALERT! ALERT! ALERT!</Alert> : null}
+        <Button color="warning" onClickFunction={setDisFunction}>Click for New Alerts</Button>
         <Button color="primary" onClickFunction={handleClick}>One Button</Button>
         <Button color="secondary" onClickFunction={handleClick}>Two Button</Button>
         <Button color="success" onClickFunction={handleClick}>Tres Button</Button>
