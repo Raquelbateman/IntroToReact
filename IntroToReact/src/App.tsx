@@ -78,7 +78,6 @@ function App() {
         <Button color="success" onClickFunction={handleClick}>Tres Button</Button>
 
         <ListGroup onSelectedItem={handleSelectItem} items={items} heading="Cities" />
-        {/* if we want to make a second list we can use props or properties */}
         <ListGroup onSelectedItem={handleSelectItem} items={students} heading="Students" />
         <ListGroup onSelectedItem={handleSelectItem} items={cars} heading="List of Cars" />
       </div>
