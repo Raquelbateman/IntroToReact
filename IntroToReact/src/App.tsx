@@ -64,13 +64,9 @@ function App() {
     <>
       <div>
       <GiBalloonDog color="purple" size={80}/>
-        {/* /* <Alert>
+  
 
-      Passing in text as a child!
-
-
-        </Alert> */}
-       
+  
         {display ? <Alert closeAlertFunc={setDisFunc}>Click Me For Latest Alerts</Alert> : null}
         <Button color="warning" onClickFunction={setDisFunc}>Click for New Alerts</Button>
         <Button color="primary" onClickFunction={handleClick}>One Button</Button>
@@ -87,7 +83,7 @@ function App() {
       <div>
         
       </div>
-      {/* //return <div><h1>Hello World</h1></div> */}
+   
     </>
   );
 }
