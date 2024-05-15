@@ -1,7 +1,7 @@
 Mini Challenge 5 Alert Component
 
-<b>Name:</b>Alicia Bryant<br>
-<b>Project:</b>Alert Component<br>
+<b>Name:</b> Alicia Bryant<br>
+<b>Project:</b> Alert Component<br>
 <b>Date:</b> 05/14/2024 <br>
 <strong>Description:</strong>
 In our Same Project file: Create a re-usable Alert Component
@@ -17,6 +17,6 @@ Inside the Alert there should also be a X to close the Alert.
 <b>GitHub:</b> https://github.com/Raquelbateman/IntroToReact<br>
 
 
-Peer Reviewed by: Aaron Perez <br>
+Peer Reviewed by: <br>
  <br> 
 
