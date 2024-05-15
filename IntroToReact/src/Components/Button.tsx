@@ -2,12 +2,17 @@ import React from 'react'
 
 interface ButtonProps{
     children:string
+    //typically called onClick
+    onClickFunction:() => void
+    color:string
+
 }
 
-const Button = ({children}: ButtonProps) => {
+// componenent needs to be passed in here to use the function
+const Button = ({children, onClickFunction, color}: ButtonProps) => {
   return (
     <>
-    <button className="btn btn-primary">{children}</button>
+    <button className={`btn btn-${color}`} onClick={onClickFunction}>{children}</button>
 
     </>
   )
