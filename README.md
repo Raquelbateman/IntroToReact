@@ -17,6 +17,6 @@ Inside the Alert there should also be a X to close the Alert.
 <b>GitHub:</b> https://github.com/Raquelbateman/IntroToReact<br>
 
 
-Peer Reviewed by: <br>
- <br> 
+Peer Reviewed by: Aaron Perez <br>
+Comments: Alert button works great with a pop up message and close "X" button. Nice Job!! <br> 
 
