@@ -14,7 +14,7 @@ Inside the Alert there should also be a X to close the Alert.
 
 
 <br><br>
-<b>GitHub:</b> https://github.com/Raquelbateman/CounterComponent<br>
+<b>GitHub:</b> https://github.com/Raquelbateman/IntroToReact<br>
 
 
 Peer Reviewed by: Aaron Perez <br>
