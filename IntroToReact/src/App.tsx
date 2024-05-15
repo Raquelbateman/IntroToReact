@@ -4,7 +4,7 @@ import Alert from "./Components/Alert";
 import Button from "./Components/Button"
 import ListGroup from "./Components/ListGroup/ListGroup";
 import MyuseStateExample from "./Components/useStateExample";
-import { Gi3dGlasses } from "react-icons/gi";
+import { GiBalloonDog } from "react-icons/gi";
 
 
 function App() {
@@ -63,7 +63,7 @@ function App() {
   return (
     <>
       <div>
-      <Gi3dGlasses  color="purple" size={80}/>
+      <GiBalloonDog color="purple" size={80}/>
         {/* /* <Alert>
 
       Passing in text as a child!
