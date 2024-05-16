@@ -1,18 +1,20 @@
+import {useState} from 'react';
 import Styles from './Counter.module.css';
 
 const Counter = () => {
 
-let counter = 0
+
 //we need a use state
-
+    const [counter, setCounter] = useState(0)
 //Two functions one to handle our increment
-// One function to handle iour decrement
+
 const handleIncrement = () => {
-
-    counter++;
-    console.log(counter)
-
+setCounter(counter + 1)
+console.log(counter)
+   
 }
+// One function to handle iour decrement
+
 
 return (
     <>
