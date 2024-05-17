@@ -74,6 +74,26 @@ const handledrink=() => {
 
 }
 
+//create a useState with nested objects and update
+
+const [customer, setcustomer] = useState({
+
+name:"Jose",
+address:{
+  city:"Stockton",
+  zipCode: 94402
+}
+
+});
+
+
+//create a function to handle updating a nested object
+// update the zip code: 95212
+const handleCustomer = () =>
+{
+  setcustomer({...customer,address:{...customer.address,zipCode:95212}})
+};
+
 
 
   return (
