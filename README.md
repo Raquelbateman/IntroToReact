@@ -3,7 +3,7 @@
 <b>Name:</b> Alicia Bryant<br>
 <b>Project:</b> Button Styling with modules, Like Icon<br>
 <b>Date:</b> 05/16/2024 <br>
-<strong>Description:</strong>
+<strong>Description:</strong><br>
 Part 1: Create a simple React component called "Like"  component that when clicked it toggles fills in the icon on and off 
 
 Part 2: Create a Button.module.css and style the button to make it look as close to the primary bootstrap button 
