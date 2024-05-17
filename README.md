@@ -1,4 +1,4 @@
-Mini Challenge 6 Button Styling with modules, Like Icon
+<b>Mini Challenge 6 Button Styling with modules, Like Icon</b>
 
 <b>Name:</b> Alicia Bryant<br>
 <b>Project:</b> Alert Component<br>
