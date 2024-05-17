@@ -53,6 +53,28 @@ function App() {
   const setDisFunction = () => {
     setDisplay(!display);
   };
+// learn how to update an objectin our useState,
+const [drink, setDrink] = useState({
+  title:"Americano",
+  price: 8
+
+});
+
+
+// create a function to update the price of our drink object in our useState
+const handledrink=() => {
+  const newDrink = {
+
+    title:drink.title,
+    price: 10
+  }
+
+  setDrink(newDrink);
+  console.log(drink.price);
+
+}
+
+
 
   return (
     <>
