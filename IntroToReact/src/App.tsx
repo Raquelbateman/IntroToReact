@@ -1,11 +1,14 @@
-//import Message from "./Message";
 import { useState } from "react";
 import Alert from "./Components/Alert";
-import Button from "./Components/Button";
+import Button from "./Components/Button/Button";
 import ListGroup from "./Components/ListGroup/ListGroup";
 import MyuseStateExample from "./Components/useStateExample";
 import { GiBalloonDog } from "react-icons/gi";
 import Counter from "./Components/Counter/Counter";
+import Like from "./Components/Like/Like";
+
+
+
 
 function App() {
   // this is from our list group that we cut out and put here instead
@@ -54,51 +57,52 @@ function App() {
     setDisplay(!display);
   };
 // learn how to update an objectin our useState,
-const [drink, setDrink] = useState({
-  title:"Americano",
-  price: 8
+// const [drink, setDrink] = useState({
+//   title:"Americano",
+//   price: 8
 
-});
+// });
 
 
 // create a function to update the price of our drink object in our useState
-const handledrink=() => {
-  const newDrink = {
+// const handledrink=() => {
+//   const newDrink = {
 
-    title:drink.title,
-    price: 10
-  }
+//     title:drink.title,
+//     price: 10
+//   }
 
-  setDrink(newDrink);
-  console.log(drink.price);
+//   setDrink(newDrink);
+//   console.log(drink.price);
 
-}
+// }
 
 //create a useState with nested objects and update
 
-const [customer, setcustomer] = useState({
+// const [customer, setcustomer] = useState({
 
-name:"Jose",
-address:{
-  city:"Stockton",
-  zipCode: 94402
-}
+// name:"Jose",
+// address:{
+//   city:"Stockton",
+//   zipCode: 94402
+// }
 
-});
+// });
 
 
 //create a function to handle updating a nested object
 // update the zip code: 95212
-const handleCustomer = () =>
-{
-  setcustomer({...customer,address:{...customer.address,zipCode:95212}})
-};
+// const handleCustomer = () =>
+// {
+//   setcustomer({...customer,address:{...customer.address,zipCode:95212}})
+// };
 
 
 
   return (
     <>
       <div>
+        <Like />
         <GiBalloonDog color="purple" size={80} />
 
         {display ? (
