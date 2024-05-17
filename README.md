@@ -39,7 +39,7 @@ Comments:  <br>
 
 
 
-Mini Challenge 5 Alert Component
+<b>Mini Challenge 5 Alert Component<b>
 
 <b>Name:</b> Alicia Bryant<br>
 <b>Project:</b> Alert Component<br>
