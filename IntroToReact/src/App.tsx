@@ -7,9 +7,6 @@ import { GiBalloonDog } from "react-icons/gi";
 import Counter from "./Components/Counter/Counter";
 import Like from "./Components/Like/Like";
 
-
-
-
 function App() {
   // this is from our list group that we cut out and put here instead
   //
@@ -56,48 +53,44 @@ function App() {
   const setDisFunction = () => {
     setDisplay(!display);
   };
-// learn how to update an objectin our useState,
-// const [drink, setDrink] = useState({
-//   title:"Americano",
-//   price: 8
+  // learn how to update an objectin our useState,
+  // const [drink, setDrink] = useState({
+  //   title:"Americano",
+  //   price: 8
 
-// });
+  // });
 
+  // create a function to update the price of our drink object in our useState
+  // const handledrink=() => {
+  //   const newDrink = {
 
-// create a function to update the price of our drink object in our useState
-// const handledrink=() => {
-//   const newDrink = {
+  //     title:drink.title,
+  //     price: 10
+  //   }
 
-//     title:drink.title,
-//     price: 10
-//   }
+  //   setDrink(newDrink);
+  //   console.log(drink.price);
 
-//   setDrink(newDrink);
-//   console.log(drink.price);
+  // }
 
-// }
+  //create a useState with nested objects and update
 
-//create a useState with nested objects and update
+  // const [customer, setcustomer] = useState({
 
-// const [customer, setcustomer] = useState({
+  // name:"Jose",
+  // address:{
+  //   city:"Stockton",
+  //   zipCode: 94402
+  // }
 
-// name:"Jose",
-// address:{
-//   city:"Stockton",
-//   zipCode: 94402
-// }
+  // });
 
-// });
-
-
-//create a function to handle updating a nested object
-// update the zip code: 95212
-// const handleCustomer = () =>
-// {
-//   setcustomer({...customer,address:{...customer.address,zipCode:95212}})
-// };
-
-
+  //create a function to handle updating a nested object
+  // update the zip code: 95212
+  // const handleCustomer = () =>
+  // {
+  //   setcustomer({...customer,address:{...customer.address,zipCode:95212}})
+  // };
 
   return (
     <>
