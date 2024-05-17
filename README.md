@@ -17,8 +17,8 @@ The Button.module.css should be in its own Button Folder and move your Button.ts
 <b>GitHub:</b> https://github.com/Raquelbateman/IntroToReact<br>
 
 
-Peer Reviewed by:  <br>
-Comments:  <br> 
+Peer Reviewed by: David Jimenez <br>
+Comments:  I see that your icon toggles on and off properly.  I see your primary buttons work also.  You properly turned off the bootstrap from the main.tsx so that your own styles can work. Your styles are connected and seem to be quite similar to the bootstrap styles for the primary button.  <br> 
 <br>
 <br>
 <br>
@@ -30,7 +30,7 @@ Comments:  <br>
 
 
 
-
+-----------------------------------------------------------------------------------------------------------------------
 
 
 
