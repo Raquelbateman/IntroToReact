@@ -10,7 +10,7 @@ Part 2: Create a Button.module.css and style the button to make it look as close
 
 . Requirements:
 
-The component should be an icon.
+The component should be an icon.<br>
 The Button.module.css should be in its own Button Folder and move your Button.tsx into that folder.
 
 <br><br>
